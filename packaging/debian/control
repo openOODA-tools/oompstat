@@ -1,0 +1,14 @@
+Source: oompstat
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: oompstat
+Architecture: amd64
+Depends: libc6
+Description: CPU CORE METER
+ Per-core CPU utilization breakdown showing user, nice, system, irq, and idle time.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
